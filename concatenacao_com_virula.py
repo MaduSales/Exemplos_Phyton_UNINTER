@@ -1,0 +1,1 @@
+print('O resultado da soma entre 2 + 3 é' , 2 + 3)
