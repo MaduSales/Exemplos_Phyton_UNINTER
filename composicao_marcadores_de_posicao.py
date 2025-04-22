@@ -16,8 +16,16 @@ s1 = 'Sua nota foi %d na disciplina de %s' % (nota, disciplina)
 print(s1)
 
 
-# Exemplo referenciando linguagem C
+# Exemplo composição moderna
 nota = 8.5
 disciplina = 'Algoritmos'
 s1 = 'Você tirou {} na disciplina de {}' .format(nota,disciplina)
+print(s1)
+
+
+
+# Exemplo composição F-String
+nota = 8.5
+disciplina = 'Algoritmos'
+s1 = f 'Você tirou {nota} na disciplina de {disciplina}'
 print(s1)
