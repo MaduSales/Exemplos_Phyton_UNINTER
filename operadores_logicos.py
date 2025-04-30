@@ -20,3 +20,10 @@ print(x and y)
 x = False
 y = True
 print(x or y)
+
+
+# Juntando todos:
+x = 10
+y = 1
+z = 5
+print(x > y or not z == y and y != y + z / x) # Aqui temos 2 blocos de operações lógicas. Deve ter 2 condições verdadeiras finais para o resultado ser verdadeiro.
